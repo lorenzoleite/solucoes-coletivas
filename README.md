@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Soluções Coletivas
 
-## Available Scripts
+O projeto veio do questionamento de como as Associações Atléticas Acadêmicas poderiam contribuir de forma efetiva na luta antirrascista que é de extrema importância.
 
-In the project directory, you can run:
+Assim, realizaremos algumas ações como, arrecadação de alimentos e insumos para ajudar comunidades quilombolas e indígenas de Goiás, e além disso, iremos reunir lideranças dessas comunidades para realizar debates que tragam o tema racial pra dentro do meio universitário.
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### O Website
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+A partir disso, criei essa página com o intuito de ajudar a captação de doações mostrando o projeto e o explicando no decorrer dessa single page. Como precisava ser algo mais urgente, deixei o mais enxuto possível e vou hospedar no netlify pra agilizar o processo. 
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tecnologias Usadas
 
-### `yarn build`
+<ul>
+    <li>Figma para a prototipação</li>
+    <li>Lowdb para o Banco de Dados</li>
+    <li>NodeJs para o Backend da Aplicação</li>
+    <li>ReactJs para o Frontend da Aplicação</li>
+</ul>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tasklist do Projeto
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ - [x] Estruturas do projeto
+ - [ ] Implementação da Home
+ - [ ] Implementação da responsividade
+ - [ ] Exportação pro Netlify
+ 
+ ## Inicialização do Projeto
+    
+    Após clonar o repositório:
+ ```
+    cd solucoes-coletivas
+    npm install ou yarn -> instalar os módulos do frontend
+    npm start ou yarn start -> inicializar o servidor 
+ ```
+ 
+ 
+  
