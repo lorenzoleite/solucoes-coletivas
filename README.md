@@ -13,9 +13,6 @@ A partir disso, criei essa página com o intuito de ajudar a captação de doaç
 ### Tecnologias Usadas
 
 <ul>
-    <li>Figma para a prototipação</li>
-    <li>Lowdb para o Banco de Dados</li>
-    <li>NodeJs para o Backend da Aplicação</li>
     <li>ReactJs para o Frontend da Aplicação</li>
 </ul>
 
