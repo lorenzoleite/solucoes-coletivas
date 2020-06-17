@@ -7,8 +7,9 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font: 400 14px Roboto, sans-serif;
-    background: #f0f0f5;
+    color: #1D0D09;
+    background: #FFF;
     -webkit-font-smothing: antialiased;
 }
