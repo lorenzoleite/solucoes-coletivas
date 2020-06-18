@@ -76,31 +76,50 @@
     padding: 28px;
     margin-bottom: 50px;
 
+    background-color: #1D0D09;
+    border-radius: 8px;
+
     -webkit-box-shadow: 8px 8px 14px -2px rgba(0,0,0,0.51);
     -moz-box-shadow: 8px 8px 14px -2px rgba(0,0,0,0.51);
     box-shadow: 8px 8px 14px -2px rgba(0,0,0,0.51);
-
-    background-color: #1D0D09;
-    border-radius: 8px;
 }
 
 .donate-card h1 {
     font-weight: 700;
     color: #FFF;
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .donate-card h1 svg {
     margin-right: 15px;
 }
 
+.progress-bar{
+    display: flex;
+
+    margin-bottom: 10px;
+
+    width: 50%;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #FFF;
+  }
+  
+  .progress-bar::before{
+    content: "";
+    width: 5%;
+    border-radius: 7px;
+    background-color: green;
+  }
+
 .donate-card .money {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+
     font-weight: 700;
     color: #FFF;
 }
@@ -110,36 +129,53 @@
     margin-right: 150px;
 }
 
-.progress-bar{
+.donate-card .contribute {
     display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #FFF;
 
-    margin-bottom: 5px;
-
-    width: 50%;
-    height: 15px;
-    border-radius: 8px;
-    background-color: #FFF;
-  }
-  
-  .progress-bar::before{
-    content: "";
-    width: 5%;
-    border-radius: 8px;
-    background-color: green;
-  }
-
-.donate-card .qr-code {
-    width: 20%;
-    background-color: white;
-    border: 10px solid white;
-    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
-.donate-card h4 {
+.donate-card .contribute svg {
+    margin-left: 15px;
+}
+
+.donate-card .contributions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.donate-card .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-card .cards .img-link{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.donate-card .cards img{
+    width: 100px;
+}
+
+.donate-card .link {
+    text-decoration: none;
+}
+
+.donate-card .text-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     color: #FFF;
 
-    margin-top: 8px;
+    margin-top: 3px;
+    margin-right: 4px;
 }
 
 .project {

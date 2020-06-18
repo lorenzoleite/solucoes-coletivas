@@ -1,12 +1,8 @@
 import React from 'react';
-import { FiChevronDown } from 'react-icons/fi'
-import { GiReceiveMoney } from 'react-icons/gi'
+import { FiChevronDown, FiCornerRightDown, FiChevronRight } from 'react-icons/fi'
+import { GiReceiveMoney, GiPayMoney } from 'react-icons/gi'
 
 import './styles.css';
-
-import LogoImg from '../../assets/logo.png';
-import QRCodeImg from '../../assets/qrcode.png';
-import Family from '../../assets/family.jpg'
 
 export default function Home() {
     return(
@@ -18,7 +14,7 @@ export default function Home() {
                     <FiChevronDown />
                 </a>
 
-                <img src={LogoImg} alt="Logo Soluções Coletivas" />
+                <img src={require('../../assets/logo.png')} alt="Logo Soluções Coletivas" />
 
                 <a className="visible" href="#projeto">
                     Conheça o Projeto
@@ -30,19 +26,48 @@ export default function Home() {
                 <h1>
                     <GiReceiveMoney />
                     Parcial arrecadado até o momento
-                    
                 </h1>
 
-                <div class="progress-bar" ></div>
+                <div className="progress-bar" ></div>
 
                 <div className="money">
-                    <h3>R$ 500,00</h3>
+                    <h3>R$ 340,70</h3>
 
-                    <h3>Meta: R$ 10.000,00</h3>
+                    <h3>Meta: R$ 45.000,00</h3>
                 </div>
                 
-                <img className="qr-code" src={QRCodeImg} alt="QR Code"/>
-                <h4>Contribua agora mesmo!</h4>
+                <h3 className="contribute">
+                    Contribua agora mesmo através dos nossos links
+                    <FiCornerRightDown/>
+                </h3>
+
+                <div className="contributions">
+                    <div className="cards">                
+                        <a className="img-link" href="https://app.picpay.com/user/solu.coletivas" target="_blank">
+                            <img src={require('../../assets/picpay.png')} alt="QR Code"/>
+                        </a>
+                        
+                        <a className="link" href="https://app.picpay.com/user/solu.coletivas" target="_blank">
+                            <h5 className="text-link">
+                                <FiChevronRight/>
+                                PicPay
+                            </h5>
+                        </a>
+                    </div>
+
+                    <div className="cards">
+                        <a className="img-link" href="https://abacashi.com/p/solucoes_coletivas" target="_blank">
+                            <img src={require('../../assets/abacashi.png')} alt="QR Code"/>
+                        </a>
+
+                        <a className="link" href="https://abacashi.com/p/solucoes_coletivas" target="_blank">
+                            <h5 className="text-link">
+                                <FiChevronRight/>
+                                Abacashi
+                            </h5>
+                        </a>
+                    </div>
+                </div>            
             </div>
 
             <div className="project">
@@ -50,7 +75,7 @@ export default function Home() {
 
                 <div className="description">
                     <h3 id="projeto">Nossa missão é fomentar o debate racial no meio universitário, interligando Associações Atléticas Acadêmicas com líderes de comunidades quilombolas e indígenas, com o intuito de criar conteúdos com esse tema e levar esse debate de forma acessível a sociedade, além de fazer arrecadações que serão convertidas em alimentos e insumos para essas comunidades que necessitam em Goiás.</h3>
-                    <img src={Family} alt="Família Indígena" />
+                    <img src={require('../../assets/family.jpg')} alt="Família Indígena" />
                 </div>
             </div>
 
