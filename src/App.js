@@ -1,6 +1,6 @@
 import React from 'react';
-
-import './global.css';
+import './styles/global.css';
+import './styles/responsive.css'
 
 import Home from './pages/Home'
 
