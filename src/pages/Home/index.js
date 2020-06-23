@@ -4,7 +4,6 @@ import { GiReceiveMoney } from 'react-icons/gi';
 import { Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
 import '../../../src/styles/adicional.css';
-import Carousel from 'react-multi-carousel';
 
 import './styles.css';
 
@@ -62,10 +61,10 @@ export default function Home() {
                     Parcial arrecadado até o momento
                 </h1>
 
-                <div className="progress-bar" ></div>
+                <div className="progress-bar"></div>
 
                 <div className="money">
-                    <h3>R$ 515,70</h3>
+                    <h3>R$ 695,70</h3>
 
                     <h3>Meta: R$ 45.000,00</h3>
                 </div>
@@ -221,10 +220,10 @@ export default function Home() {
                     Parcial arrecadado até o momento
                 </h1>
 
-                <div className="progress-bar" ></div>
+                <div className="progress-bar"></div>
 
                 <div className="money">
-                    <h3>R$ 515,70</h3>
+                    <h3>R$ 695,70</h3>
 
                     <h3>Meta: R$ 45.000,00</h3>
                 </div>
