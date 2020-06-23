@@ -10,7 +10,6 @@ import './styles.css';
 
 export default function Home() {
 
-
     const [kalungaShow, setKalungaShow] = useState(false);
     const [kaluaniShow, setKaluaniShow] = useState(false);
     const [joaoShow, setJoaoShow] = useState(false);
