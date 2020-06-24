@@ -9,6 +9,16 @@ import './styles.css';
 
 export default function Home() {
 
+    var currentValue = "1.482,00";
+    var value = 1482.30;
+
+    function calculatePercentage(value) {
+        var currentPercentage = (value * 100) / 45000.00;
+        console.log(currentPercentage);
+    }
+
+    calculatePercentage(value);
+
     const [kalungaShow, setKalungaShow] = useState(false);
     const [kaluaniShow, setKaluaniShow] = useState(false);
     const [joaoShow, setJoaoShow] = useState(false);
@@ -61,10 +71,10 @@ export default function Home() {
                     Parcial arrecadado até o momento
                 </h1>
 
-                <div className="progress-bar"></div>
+                <div className="progress-bar"/>
 
                 <div className="money">
-                    <h3>R$ 695,70</h3>
+                    <h3>R$ {currentValue}</h3>
 
                     <h3>Meta: R$ 45.000,00</h3>
                 </div>
@@ -220,10 +230,10 @@ export default function Home() {
                     Parcial arrecadado até o momento
                 </h1>
 
-                <div className="progress-bar"></div>
+                <div className="progress-bar"/>
 
                 <div className="money">
-                    <h3>R$ 695,70</h3>
+                    <h3>R$ {currentValue}</h3>
 
                     <h3>Meta: R$ 45.000,00</h3>
                 </div>

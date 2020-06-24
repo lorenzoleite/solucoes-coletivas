@@ -105,9 +105,9 @@
     background-color: #FFF;
   }
   
-  .progress-bar::before{
+  .progress-bar:before{
     content: "";
-    width: 1.546%;
+    width: 3.294%;
     border-radius: 7px;
     background-color: green;
   }
