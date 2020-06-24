@@ -3,7 +3,6 @@ import { FiChevronDown, FiCornerRightDown, FiChevronRight } from 'react-icons/fi
 import { GiReceiveMoney } from 'react-icons/gi';
 import { Button } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
-import '../../../src/styles/adicional.css';
 
 import './styles.css';
 
