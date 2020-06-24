@@ -19,9 +19,10 @@ A partir disso, criei essa página com o intuito de ajudar a captação de doaç
 ### Tasklist do Projeto
 
  - [x] Estruturas do projeto
- - [ ] Implementação da Home
+ - [x] Implementação da Home
+ - [x] Modais Comunidades
+ - [x] Exportação pro Netlify
  - [ ] Implementação da responsividade
- - [ ] Exportação pro Netlify
  
  ## Inicialização do Projeto
     
@@ -32,5 +33,6 @@ A partir disso, criei essa página com o intuito de ajudar a captação de doaç
     npm start ou yarn start -> inicializar o servidor 
  ```
  
+ ## Link do Projeto no ar
  
-  
+ https://solucoes-coletivas.netlify.app/
