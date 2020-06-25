@@ -8,15 +8,7 @@ import './styles.css';
 
 export default function Home() {
 
-    var currentValue = "1.482,00";
-    var value = 1482.30;
-
-    function calculatePercentage(value) {
-        var currentPercentage = (value * 100) / 45000.00;
-        console.log(currentPercentage);
-    }
-
-    calculatePercentage(value);
+    var currentValue = "1.751,70";
 
     const [kalungaShow, setKalungaShow] = useState(false);
     const [kaluaniShow, setKaluaniShow] = useState(false);

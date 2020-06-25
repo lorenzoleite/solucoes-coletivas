@@ -22,7 +22,7 @@ A partir disso, criei essa página com o intuito de ajudar a captação de doaç
  - [x] Implementação da Home
  - [x] Modais Comunidades
  - [x] Exportação pro Netlify
- - [ ] Implementação da responsividade
+ - [x] Implementação da responsividade
  
  ## Inicialização do Projeto
     
