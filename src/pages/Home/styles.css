@@ -107,7 +107,7 @@
   
   .progress-bar:before{
     content: "";
-    width: 8.44%;
+    width: 7.28%;
     border-radius: 7px;
     background-color: green;
   }
