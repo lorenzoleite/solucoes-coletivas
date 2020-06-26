@@ -8,7 +8,16 @@ import './styles.css';
 
 export default function Home() {
 
-    var currentValue = "1.751,70";
+    var currentValue = "3.799,94";
+    var value = 3799.94;
+    var meta = 45000;
+
+    function calculatePercentage() {
+        const result = (value*100)/meta;
+        return console.log(result);
+    }
+
+    calculatePercentage();
 
     const [kalungaShow, setKalungaShow] = useState(false);
     const [kaluaniShow, setKaluaniShow] = useState(false);
