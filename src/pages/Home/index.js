@@ -9,7 +9,7 @@ import './styles.css';
 export default function Home() {
 
     var currentValue = "3.452,65";
-    var value = 3452.65;
+    var value = 3659.47;
     var meta = 45000;
 
     function calculatePercentage() {
