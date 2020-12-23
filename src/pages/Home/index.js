@@ -8,7 +8,7 @@ import './styles.css';
 
 export default function Home() {
 
-    var currentValue = "3.452,65";
+    var currentValue = "3.659,47";
     var value = 3659.47;
     var meta = 45000;
 
